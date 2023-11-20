@@ -1,3 +1,22 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.20);
+}
 .nav-item{
     padding: 0 10px
 }   
+.navbar-brand span{
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.navbar-brand img{
+    height: 100px;
+}
+
+@media (max-width: 430px) {
+    .navbar-brand span{
+        font-size: larger;
+    }
+    .navbar-brand img{
+        height: 65px;
+    }
+}

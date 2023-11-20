@@ -2,17 +2,17 @@ body{
     background-color: #121212;
 }
 
-
+.carousel-control-next, .carousel-control-prev{
+    filter: invert(50%);
+}
 
 .poster-container {
     position: relative;
 }
 
 .poster-img {
-    position: relative;
-    width: 100%;
-    height: 90vh;
-    object-fit: scale-down;
+    height: 80vh;
+    padding-top: 12vh;
 }
 
 .blurred-background {
@@ -24,4 +24,9 @@ body{
     background-size: cover;
     filter: blur(10px); /* Adjust the blur strength as needed */
     z-index: -1;
+}
+
+.buyTicket a{
+    text-decoration: none;
+    color: white;
 }
